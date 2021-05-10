@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const Films = () => {
-   return <h1>Films Info</h1>;
+const Films = ({link, children}) => {
+   return(
+    <Fragment>
+        <h4>{children}</h4>
+        <p>{link}</p>
+    </Fragment>
+   );
 };
 
 

@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Films from './Films'
 
-const FilmList = () => {
+const FilmList = ({films}) => {
 
-    const filmList = 
-    return(<Films></Films>)
+    const filmNodes = films.map((film) => {
+        return(<Films link={film.url}>{film.name}</Films>);
+    });
+    
+    return (
+    <Fragment>
+        {filmNodes}
+    </Fragment>);
 };
 
 

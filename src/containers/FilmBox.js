@@ -29,7 +29,7 @@ const FilmBox = () => {
            url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
          }
       ]);
-   return(<FilmList Films = {films}></FilmList>);
+   return(<FilmList films = {films}></FilmList>);
 };
 
 
