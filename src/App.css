@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  text-align: center;
+  border: solid black;
+  width: 33%;
+  margin: auto;
+  background-color: #e6ffff;
+}
+
+h1{
+  border-bottom: solid black;
+  background-color: #b3ffff;
+  margin: 0;
+}
+
+button{
+  width: 100%;
+  font-size: 20px;
+}

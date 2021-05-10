@@ -9,7 +9,9 @@ const FilmList = ({films}) => {
     
     return (
     <Fragment>
+        <h1>Upcoming Releases</h1>
         {filmNodes}
+        <a href='https://www.imdb.com/calendar/?region=gb'><button>View More Upcoming Releases >></button></a>
     </Fragment>);
 };
 
