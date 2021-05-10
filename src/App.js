@@ -1,8 +1,9 @@
 import './App.css';
+import FilmBox from './containers/FilmBox'
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <FilmBox ></FilmBox>
   );
 }
 
